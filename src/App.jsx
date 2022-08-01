@@ -17,6 +17,7 @@ import ProductManagement from './admins/screens/ProductManagement';
 import AdminReservation from './admins/screens/AdminReservation';
 import ReservationDetails from './admins/screens/ReservationDetails';
 import Settings from './admins/screens/Settings';
+import SalesReport from './admins/screens/SalesReport';
 import Profile from './admins/screens/Profile';
 
 
@@ -79,6 +80,7 @@ function App() {
             admin===1?
             (<>
               <Route path="/admin" exact element={<AdminHome/>}/>
+              <Route path="/admin/sales" exact element={<SalesReport/>}/>
               <Route path="/admin/addproduct" exact element={<AddProduct/>}/>
               <Route path="/admin/editproduct" exact element={<EditProduct/>}/>
               <Route path="/admin/account" exact element={<Accounts/>}/>
