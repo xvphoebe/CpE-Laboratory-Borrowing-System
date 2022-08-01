@@ -1,0 +1,466 @@
+@font-face {
+  font-family: 'Boiling';
+  src:url(/src/assets/fonts/Boiling-BlackDemo.ttf) format('truetype');
+}
+
+body{
+    background-color: whitesmoke;
+    height:inherit ;
+}
+
+.home{
+  width:100vw;
+}
+
+.firstSection{
+    height:100%;
+    width:94%;
+    margin-left:3vw;
+    margin-right:3vw;
+}
+
+.homeTitle{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  align-self: flex-start;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.italic{
+  font-style: italic;
+  font-size:18px;
+  color: #E3A765;
+}
+
+.pizzaBG{
+  position: absolute;
+  right:-18%;
+  bottom:5%;
+  width:53.9608vw;
+  height:79.102vh;
+  object-fit: fill;
+  z-index: -1;
+}
+
+.upArrow{
+  width: 8.27vw;
+  height: 14.71vh;
+  transform: rotate(-163.82deg);
+  position: absolute;
+  bottom:10%;
+  right:29%;
+}
+
+.italicAbsolute{
+  position: absolute;
+  bottom:8%;
+  right:33%;
+  font-style: italic;
+  font-size:18px;
+  color: #E3A765;
+}
+
+.circle{
+  position: absolute;
+  z-index: -2;
+  background: white;
+  border-radius: 50%;
+  width:51.21vw;
+  height:91.15vh;
+  right: -10vw;
+  bottom:-40vh;
+}
+
+.dots{
+    display:flex;
+}
+
+.dots p{
+    background-color: gray;
+    height:10px;
+    width:10px;
+    border-radius: 20px;
+    margin-left: .5vh;
+    margin-right: .5vw;
+    margin-top: 33vh;
+}
+
+.topSecond{
+  color:		#F08000;
+  font-family: 'Montserrat';
+  padding-top: 2vh;
+  padding-bottom:5vh;
+}
+
+.smallcardContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:8.5vh;
+}
+
+.featuredProducts{
+  background-color: #F2EFE2;
+  margin-left:3vw;
+  margin-right: 3vw;
+  border-radius:20px;
+  padding-top:1vh;
+  padding-bottom: 1vh;
+  margin-bottom:8.5vh;
+}
+
+.viewAllButton{
+  cursor: pointer;
+  background-color: #FDD000;
+  border-radius: 8px;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color:white;
+}
+
+.featuredButtonsContainer{
+  margin-left: 3vw;
+  margin-right:3vw ;
+  justify-content: space-between;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.bigcardContainer{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservationForm{
+  color:	#F08000;
+  z-index: -10;
+}
+
+.reservation{
+  width:100%;
+  background-color:whitesmoke;
+  margin-bottom: 10vh;
+}
+
+.topReservation{
+  margin-left: 3vw;
+}
+
+.topReservation h1{
+  font-family: "Montserrat";
+  color:#F08000;
+  font-size: 32px;
+}
+
+.mainReservation{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  display: flex;
+}
+
+.resImage{
+  margin-left: 2vw;
+  z-index: 1;
+}
+
+.formGroupContainer{
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  margin-left: 25vw;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  align-items: center;
+  object-fit: c;
+}
+
+.schedForm{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+.schedInputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.schedInputs input[type=text],
+.schedInputs input[type=date]{
+  padding-left: 1vw;
+  border:none;
+  width:150px;
+  height:30px;
+  margin-top:10px;
+  border:solid 	#F08000 2px;
+  border-radius: 5px;
+}
+
+.infoForm{
+  width:80%;
+}
+
+.infoForm input[type=text],
+.infoForm input[type=number]{
+  padding-left: 1vw;
+  width:96%;
+  height:30px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  border:solid 	#F08000 2px;
+  border-radius: 5px;
+}
+
+.formButton{
+  margin-top: 2vh;
+  border:none;
+  border-radius: 8px;
+  width:80%;
+  height:5vh;
+  background-color: black;
+  color:white;
+  margin-bottom: 40px;
+}
+
+.buttons{
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .firstSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    width:100vw;
+    height:100vh;
+    padding-top: 2vh;
+  }
+
+  .homeTitle{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-self: flex-start;
+    margin-top:2vh;
+    margin-left: 10vw;
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    font-family: 'Montserrat';
+    font-size: 30pt;
+    font-weight: bolder;
+  }
+
+  .titleButton{
+    padding: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    width:27%;
+    height:auto;
+    background-color: #F08000;
+    border:none;
+    border-radius: 5px;
+  }
+
+  .pizzaBG{
+    position: relative;
+    margin-top:2vh;
+    width:400px;
+    height:400px;
+    right:0;
+    bottom:0;
+    object-fit:contain;
+  }
+
+  .upArrow,
+  .italicAbsolute,
+  .smallcardContainer{
+    display: none;
+  }
+
+  .circle{
+    display: none;
+  }
+
+  .buttons{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 54px;
+  }
+
+  .buttonIcon{
+    max-width:12vw;
+    max-height:12vw;
+    background-color: black;
+    padding:10px;
+    border-radius: 50px;
+  }
+  .featuredProducts{
+    background-color: #F2EFE2;
+    margin-left:0;
+    margin-right: 0;
+    border-radius:20px;
+    padding-top:1vh;
+    padding-bottom: 1vh;
+    margin-bottom:8.5vh;
+  }
+  
+  .topFeature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:0;
+    margin-right:0;
+    justify-content: space-between;
+    margin-top:2vh;
+  }
+  
+  .topFeature h1{
+    font-family: 'Montserrat';
+    color:#E3A765;
+  }
+
+  .bigcardContainer{
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+
+  .reservationForm{
+    color:#E3A765;
+    z-index: -10;
+  }
+  
+  .reservation{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color:#e5e5e5;
+    margin-bottom: 10vh;
+  }
+  
+  .topReservation{
+    margin-left: 0;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    align-self: center;
+  }
+  
+  .topReservation h1{
+    font-family: 'Montserrat';
+    color:#E3A765;
+    font-size: 42px;
+  }
+  
+  .mainReservation{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+  }
+  
+  .resImage{
+    display: none;
+  }
+  
+  .formGroupContainer{
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+  }
+  
+  .schedForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    height:30vh;
+  }
+  
+  .schedInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  
+  .schedInputs input[type=text],
+  .schedInputs input[type=date]{
+    padding-left: 1vw;
+    border:none;
+    width:150px;
+    height:30px;
+    margin-top:10px;
+    border:solid #F08000 3px;
+  }
+  
+  .infoForm{
+    width:80%;
+    
+  }
+  
+  .infoForm input[type=text],
+  .infoForm input[type=number]{
+    padding-left: 1vw;
+    width:96%;
+    height:30px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border:solid #F08000 3px;
+  }
+  
+  .formButton{
+    margin-top: 2vh;
+    border:none;
+    border-radius: 8px;
+    width:80%;
+    height:5vh;
+    background-color: black;
+    color:white;
+  }
+}
+
+/* custom scroll */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

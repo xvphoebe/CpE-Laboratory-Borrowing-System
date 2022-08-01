@@ -1,0 +1,189 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+    padding-top:5vh;
+    padding-bottom:4vh;
+    align-items: center;
+    background-color:  whitesmoke;
+    
+}
+
+.buttonsContainer{
+    display: flex;
+}
+
+.button{
+    margin-left: 2.6vw;
+    margin-right:2.6vw;
+    margin-bottom:1vh;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+
+.buttonActive{
+    margin-left: 2.6vw;
+    margin-right:2.6vw;
+    border-bottom:#F28C28 3px solid;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+
+.headerTitle{
+    font-weight: bolder;
+    font-size:18px;
+    margin-left:7vw;
+}
+
+.logoContainer{
+    display: flex;
+    margin-left: 9vw;
+}
+
+.logoIcon{
+    background-color:  black;
+    height:30px;
+    width:30px;
+    padding:8px 8px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.logoContainer p{
+    width:40px;
+    height:40px;
+    background-color: gray;
+    border-radius: 20px;
+    margin-left: 4vw;
+}
+
+.menuButton{
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    padding-left:5px;
+    padding-right:5px;
+    cursor: pointer;
+    width:45px;
+    height:45px;
+    margin-left: 4vw;
+    color:white;
+}
+
+.dropDownContainer{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    margin-top: 7vh;
+    margin-left:4vw;
+    padding-top:1vh;
+    padding-bottom:1vh;
+    padding-right: 1vw;
+    padding-left:1vw;
+    z-index: 5;
+}
+
+.dropDownButton{
+    text-decoration: none;
+    color:black;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.dropDownButton:hover{
+    border-bottom: #F28C28 solid 3px;
+}
+
+.buttonMobile, 
+.buttonActiveMobile,
+.headerTextMobile img{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        padding-top:2vh;
+        padding-bottom:1vh;
+        align-items: center;
+        background-color:  #F2EFE2;
+        z-index: 5;
+        position: fixed;
+        bottom:0%;
+    }
+
+    .button, .buttonActive, .headerText{
+        display: none;
+    }
+
+    .headerTitle{
+        font-weight: bolder;
+        font-size:20px;
+        margin-left:2vw;
+    }
+
+    .headerTextMobile img{
+        display: inline;
+        height:10vw;
+        width:10vw;
+    }
+
+    .buttonActiveMobile{
+        display: inline;
+        color:#FDD000;
+        margin-left:2.6vw;
+        font-size: 20pt;
+    }
+
+    .buttonMobile{
+        display: inline;
+        color:black;
+        margin-left:2.6vw;
+        font-size: 20pt;
+        border: none;
+    }
+
+    .logoContainer{
+        display: flex;
+        width:25%;
+        justify-content: space-between;
+        margin-left:0;
+    }
+    
+    .logoIcon,
+    .logoContainer p,
+    .menuButton{
+        display: none;
+    }
+
+    .dropDownContainer{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: white;
+        padding:10px;
+        bottom:10vh;
+        right:5vw;
+        z-index: 5;
+    }
+    
+    .dropDownButton{
+        text-decoration: none;
+        color:black;
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+    }
+    
+    .dropDownButton:hover{
+        border-bottom:#FDD000 solid 3px;
+    }
+}

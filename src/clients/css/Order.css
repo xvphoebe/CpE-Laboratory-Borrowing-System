@@ -1,0 +1,276 @@
+/* MAIN PAGE */
+
+.order{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderheader{
+    margin-left: 7vw;
+}
+
+.headerbuttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.orderButton{
+    border:none;
+    cursor: pointer;
+}
+
+.orderButtonActive{
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+}
+
+/* DELIVER TO  */
+.pagecontainer{
+    background-color: rgb(241, 239, 239);
+    border-radius: 8px;
+    height: auto;
+    width: 75vw;
+    margin: 5vh;
+    padding: 60px;
+}
+
+.forms-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentContainer{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.orderflex-container{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+.inside-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-container label{
+    color: black;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.forms-container input{
+    border: 2px solid #F08000;
+    border-radius: 5px;
+    height: auto;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.inside-flex input{
+    width: 35vw;
+    border-radius: 5px;
+}
+
+.customername{
+    margin-right: 2vw;
+}
+
+.confirm-btn{
+    margin-top: 15px;
+    height: auto;
+    width: 10vw;
+    padding: 7px;
+    background-color:	#F08000;
+    color: white;
+    border-radius: 5px;
+    border-color: #F08000;
+    cursor: pointer;
+}
+
+.ordersCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.reStateButton{
+    background-color:black;
+    color: white;
+    padding:2px;
+    border-radius:10%;
+    font-size:20px;
+    cursor:pointer;
+    border:none;
+    margin-top:1vh;
+    margin-right:3vw;
+    align-self:flex-end;
+
+}
+
+.orderButtonContainer{
+    display:flex;
+    align-items:center;
+    width:10vw;
+    justify-content:space-around;
+}
+
+.changeCount{
+    width:2vw;
+    height:2vw;
+    background-color:black;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer
+}
+
+.removeItem{
+    width:2vw;
+    height:2vw;
+    background-color:red;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.receiverContainer{
+    margin-bottom: 2vh;
+}
+
+.receiver{
+    color:white;
+}
+
+/* ORDERS */
+.orderData{
+    color: black;
+    padding-bottom: 10px;
+}
+
+.orderContainer{
+    margin-top:1vh;
+    background-color:rgb(241, 239, 239);
+    padding-left:2vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    padding-right:2vh;
+    border-radius:1vw;
+}
+
+.previewImage{
+    max-height:30vh;
+    max-width: 20vh;
+}
+
+.swalertIcon{
+    overflow:hidden ;
+}
+
+.swalertLoader{
+    overflow-y: hidden;
+}
+
+.swalertHTML p{
+    text-align: left;
+}
+
+@media screen and (max-width: 1100px) {
+    .reStateButton{
+        margin-bottom: 2vh;
+    }
+    .pagecontainer{
+        background-color: black;
+        border-radius: 0;
+        height: auto;
+        width: 100vw;
+        margin-top:2vh;
+        margin-bottom: 10vh;
+        margin: 0;
+        padding:0;
+        padding-left: 1vw;
+    }
+
+    h3{
+        margin-top: 2vh;
+    }
+
+    .orderContainer{
+        margin-top:1vh;
+        background-color:#F2EFE2;
+        padding-left:2vw;
+        padding-top:2vh;
+        padding-bottom:2vh;
+        padding-right:2vh;
+        border-radius:1vw;
+        width:91vw;
+    }
+
+    .confirm-btn{
+        margin-bottom: 2vh;
+        margin-left: 1vw;
+        width:100px;
+    }
+    
+    .orderButtonContainer{
+        display:flex;
+        align-items:center;
+        width:30vw;
+        justify-content:space-around;
+    }
+
+    .changeCount{
+        width:3vh;
+        height:3vh;
+        background-color:black;
+        color:white;
+        border:none;
+        border-radius:10px;
+        cursor:pointer
+    }
+    
+    .removeItem{
+        width:3vh;
+        height:3vh;
+        background-color:red;
+        color:white;
+        border:none;
+        border-radius:10px;
+        cursor:pointer;
+    }
+
+    .forms-container{
+        margin-top: 2vh;
+    }
+
+    .forms-container input{
+        border: 2px solid #F08000;
+        border-radius: 5px;
+        height: auto;
+        width:91vw;
+        padding: 8px;
+        margin-bottom: 2vh;
+    }
+    
+    .inside-flex input{
+        width: 35vw;
+        border-radius: 5px;
+    }
+
+    .orderflex-container{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-left:0;
+    }
+
+    .category-form{
+        width:100px;
+    }
+}

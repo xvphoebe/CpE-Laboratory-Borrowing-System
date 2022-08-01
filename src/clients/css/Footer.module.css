@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding-top:5vh;
+    padding-bottom:5vh;
+    align-items: center;
+    background-color:black;
+    color:white;
+}
+
+.buttonsContainer{
+    display: flex;
+    margin-left: 1.75vw;
+    padding-bottom:20px;
+    font-weight: bold;
+    border-bottom:white 1px solid;
+}
+
+.title{
+    margin-left:7vw;
+}
+
+.button{
+    margin-left: 2.6vw;
+    margin-right:2.6vw;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+}
+
+.rightSecond{
+    margin-left: 2vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.frs1{
+    display: flex;
+    align-items: center;
+    margin-left: 1.75vw;
+    margin-top: 2vh;
+}
+
+.emailLogo{
+    width:30px;
+    height:30px;
+    background-color: gray;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.frs2{
+    display: flex;
+}
+
+.regibutton{
+    height:40px;
+    width:100px;
+    border: none;
+    background-color: #FDD000;
+    color:white;
+    border-radius: 5px;
+    margin-right: 2vw;
+}
+
+.loginbutton{
+    height:40px;
+    width:100px;
+    border: none;
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+    .container{
+        display: none;
+    }
+}
+

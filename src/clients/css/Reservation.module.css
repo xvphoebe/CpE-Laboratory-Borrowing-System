@@ -1,0 +1,164 @@
+.reservation{
+  width:100%;
+  background-color:whitesmoke;
+  margin-bottom: 10vh;
+}
+
+.topReservation{
+  margin-left: 3vw;
+}
+
+.mainReservation{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  display: flex;
+}
+
+.resImage{
+  margin-left: 2vw;
+  z-index: 1;
+}
+
+.formGroupContainer{
+  background-color: rgb(241, 239, 239);
+  border-radius: 10px;
+  padding-top: 3vh;
+  margin-left: 25vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  align-items: center;
+  object-fit: c;
+}
+
+.schedForm{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+.schedInputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.schedInputs input[type=text],
+.schedInputs input[type=date]{
+  padding-left: 1vw;
+  border:none;
+  width:150px;
+  height:30px;
+  margin-top:10px;
+  border:solid 	#F08000 2px;
+  border-radius: 5px;
+}
+
+.infoForm{
+  width:80%;
+}
+
+.infoForm input[type=text],
+.infoForm input[type=number]{
+  padding-left: 1vw;
+  width:96%;
+  height:30px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  border:solid 	#F08000 2px;
+  border-radius: 5px;
+}
+
+.formButton{
+  margin-top: 2vh;
+  border:none;
+  border-radius: 8px;
+  width:80%;
+  height:5vh;
+  background-color: black;
+  color:white;
+  margin-bottom: 40px;
+}
+
+.buttons{
+  display: none;
+}
+
+  @media screen and (max-width: 1100px) {
+    .mainReservation{
+      margin-left: 0;
+      margin-right: 0;
+      display: flex;
+      justify-content: center;
+      margin-bottom:5vw;
+    }
+    
+    .resImage{
+      margin-left: 2vw;
+      z-index: 2;
+    }
+    
+    .formGroupContainer{
+      display: flex;
+      flex-direction: column;
+      width:100%;
+      align-items: center;
+      object-fit: c;
+    }
+    
+    .schedForm{
+      display: flex;
+      flex-direction: column;
+      height:30vh;
+      justify-content: space-between;
+      margin-top: 6vh;
+      margin-bottom: 6vh;
+    }
+    
+    .schedInputs{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 2vw;
+      margin-right: 2vw;
+    }
+    
+    .schedInputs input[type=text],
+    .schedInputs input[type=date]{
+      padding-left: 1vw;
+      border:none;
+      width:150px;
+      height:30px;
+      margin-top:10px;
+      border:solid #FDD000 3px;
+    }
+    
+    .infoForm{
+      width:90%;
+      
+    }
+    
+    .infoForm input[type=text]{
+      padding-left: 1vw;
+      width:96%;
+      height:30px;
+      margin-top:10px;
+      margin-bottom: 10px;
+      border:solid #FDD000 3px;
+    }
+    
+    .formButton{
+      margin-top: 2vh;
+      border:none;
+      border-radius: 8px;
+      width:90%;
+      height:5vh;
+      background-color: black;
+      color:white;
+    }
+}

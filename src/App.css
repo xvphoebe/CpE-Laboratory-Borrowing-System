@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Boiling';
+  src:url(/src/assets/fonts/Boiling-BlackDemo.ttf) format('truetype');
+}
+
+*{
+  padding:0;
+  margin:0;
+  font-family: 'montserrat', sans-serif;
+  overflow-x: hidden;
+}

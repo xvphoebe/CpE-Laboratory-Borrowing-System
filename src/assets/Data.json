@@ -1,0 +1,188 @@
+[
+            {
+                "id":1,
+                "menuName":"Cafe Latte",
+                "folder":"drinks","price": 100        
+            },{
+                "id":17,
+                "menuName":"Cafe Mocha",
+                "folder":"drinks","price":120
+            },{
+                "id":18,
+                "menuName":"Caramel Latte",
+                "folder":"drinks","price":120
+            },{
+                "id":19,
+                "menuName":"Hazelnut Latte",
+                "folder":"drinks","price":120
+            },
+            {
+                "id":20,
+                "menuName":"Hand Crafted Salted Caramel",
+                "folder":"drinks","price":120
+            },
+            {
+                "id":2,
+                "menuName":"Cappucino",
+                "folder":"drinks","price":120
+            },{
+                "id":3,
+                "menuName":"Macadamia Latte",
+                "folder":"drinks","price":120
+            },{
+                "id":4,
+                "menuName":"Ramshan's House Blend",
+                "folder":"drinks","price":130
+            },{
+                "id":5,
+                "menuName":"Vanilla Smoothie",
+                "folder":"drinks","price":130
+            },{
+                "id":6,
+                "menuName":"Blue Berry",
+                "folder":"drinks","price":130
+            },
+            {
+                "id":7,
+                "menuName":"Vanilla Latte",
+                "folder":"drinks","price":120
+            },{
+                "id":8,
+                "menuName":"Dark Chocolate",
+                "folder":"drinks","price":130
+            },{
+                "id":9,
+                "menuName":"Hazelnut",
+                "folder":"drinks","price":150
+            },{
+                "id":10,
+                "menuName":"Mango",
+                "folder":"drinks","price":150
+            },{
+                "id":11,
+                "menuName":"Matcha",
+                "folder":"drinks","price":150
+            },{
+                "id":12,
+                "menuName":"Chocolate",
+                "folder":"drinks","price":110
+            },{
+                "id":13,
+                "menuName":"Ramshan's",
+                "folder":"drinks","price":120
+            },{
+                "id":14,
+                "menuName":"Macadamia",
+                "folder":"drinks","price":120
+            },{
+                "id":15,
+                "menuName":"Salted Caramel",
+                "folder":"drinks","price":120
+            },{
+                "id":16,
+                "menuName":"Cold Vanilla",
+                "folder":"drinks","price":120
+            },{
+                "id":21,
+                "menuName":"Butterscoth Latte",
+                "folder":"drinks","price":120
+            },{
+                "id":22,
+                "menuName":"Cafe Americano",
+                "folder":"drinks","price":80
+            },{
+                "id":23,
+                "menuName":"Espresso",
+                "folder":"drinks","price":40
+            },{
+                "id":24,
+                "menuName":"Roasters Almond",
+                "folder":"drinks","price":120
+            },{
+                "id":25,
+                "menuName":"Tea",
+                "folder":"drinks","price":100
+            },{
+                "id":26,
+                "menuName":"Blue Curacao",
+                "folder":"drinks","price":110
+            },{
+                "id":27,
+                "menuName":"Mojito Mint",
+                "folder":"drinks","price":110
+            },{
+                "id":28,
+                "menuName":"Passion Fruit",
+                "folder":"drinks","price":120
+            },{
+                "id":29,
+                "menuName":"Raspberry",
+                "folder":"drinks","price":110
+            },
+            {
+                "id":30,
+                "menuName":"Strawberry",
+                "folder":"drinks","price":110
+            },
+            {
+                "id":31,
+                "folder":"maindishes","menuName":"Balognese"
+            },{
+                "id":32,
+                "folder":"maindishes","menuName":"Caprese Salad"
+            },{
+                "id":33,
+                "folder":"maindishes","menuName":"Carbonara"
+            },{
+                "id":34,
+                "folder":"maindishes","menuName":"Ceasar Salad"
+            },{
+                "id":35,
+                "folder":"maindishes","menuName":"Fresh Fries"
+            },{
+                "id":36,
+                "folder":"maindishes","menuName":"Greek Salad"
+            },{
+                "id":37,
+                "folder":"maindishes","menuName":"Mojos"
+            },{
+                "id":38,
+                "folder":"maindishes","menuName":"Penne Alfredo"
+            },{
+                "id":39,
+                "folder":"maindishes","menuName":"Pop Corn Shrimp"
+            },{
+                "id":40,
+                "folder":"maindishes","menuName":"Filipino Style Spaghetti"
+            },{
+                "id":41,
+                "folder":"maindishes","menuName":"Spaghetti Napoli"
+            },{
+                "id":42,
+                "folder":"maindishes","menuName":"Weshley Pesto"
+            },{
+                "id":43,
+                "folder":"maindishes","menuName":"MG Boodle Bilao"
+            },{
+                "id":44,
+                "folder":"maindishes","menuName":"MG Unli Wings"
+            },{
+                "id":45,
+                "menuName":"Cakes",
+                "folder":"desserts"
+            },
+            {
+                "id":46,
+                "menuName":"Donuts",
+                "folder":"desserts"
+            },{
+                "id":47,
+                "menuName":"Hawaiian",
+                "folder":"pizza","price":199
+            },
+            {
+                "id":48,
+                "menuName":"Pepperoni",
+                "folder":"pizza","price":199
+            }
+]

@@ -1,0 +1,24 @@
+.cardcontainer{
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardcontainer h3{
+    padding-bottom: 10px;
+}
+
+.customername, .productname{
+    padding-bottom: 10px;
+    padding-right: 250px;
+}
+.address, .contactnumber, .emailaddress, .totalprice, .paymentmethod, .paymentproof{
+    padding-bottom: 10px;
+}
+

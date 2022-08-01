@@ -1,0 +1,63 @@
+.bigCard{
+    height:360px;
+    width:250px;
+    background-color: white;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom:5vh;
+}
+
+.loadedImage{
+    z-index: 0;
+    min-width:100%;
+    min-height: 80%;
+    max-height:80%;
+    background-color: white;
+}
+
+.errorImage{
+    margin-top:30%;
+    z-index: 0;
+    max-width:50%;
+    max-height:80%;
+    background-color: white;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+}
+
+.textContainer{
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+    width: 80%;
+    word-break: break-all;
+}
+
+.foodText{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subText{
+    font-size: 12px;
+}
+
+.addButton{
+    background-color: #FDD000;
+    border:none;
+    font-size: 30px;
+    width:20%;
+    margin-left: 1vw;
+    border-top-left-radius: 20px;
+    color:white;
+    cursor: pointer;
+}
