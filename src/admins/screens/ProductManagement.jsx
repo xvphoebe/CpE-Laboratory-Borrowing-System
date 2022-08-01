@@ -202,12 +202,12 @@ function ProductManagement(){
                                         </Modal>
                                         <td className='admintd'>{index+1}</td>
                                         <td className='admintd'>{item.menuName}</td>
-                                        <td className='admintd'>{item.price}</td>
+                                        <td className='admintd'>{item.quantity}</td>
                                         <td className='admintd'>{item.date.slice(0,10)}</td>
                                         <td className='admintd'><button className='editProductButton' onClick={()=>{
                                             setOpenModal(true);
                                             localStorage.setItem("product", item.menuName);
-                                            localStorage.setItem('price', item.price);
+                                            localStorage.setItem('price', item.quantity);
                                             localStorage.setItem('folder', item.folder);
                                             localStorage.setItem('id', item.id);
                                             localStorage.setItem('date',item.date);
