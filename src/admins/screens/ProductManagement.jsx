@@ -27,7 +27,7 @@ function ProductManagement(){
   }, [openModal]);
 
   const getDrinks = () =>{  
-      axios.get("https://ordering-system-database.herokuapp.com/api/admin/getproduct")
+      axios.get("https://ordering-system-database.herokuapp.com/api/equipments/get")
           .then((response) => {
                 setArr(response.data);
       });
