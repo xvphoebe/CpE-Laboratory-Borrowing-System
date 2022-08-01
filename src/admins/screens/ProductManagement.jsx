@@ -110,6 +110,10 @@ function ProductManagement(){
             customClass:{
                 icon: 'swalertIcon'
             }
+        }).then((res)=>{
+            if(res.isConfirmed){
+                window.location.reload();
+            }
         })
         if(folder === "blendedsmoothies" || folder === "handcrafted" || folder === "hotbeverages"){
             axios.put(`https://ordering-system-database.herokuapp.com/api/admin/updatedrinks`,{
